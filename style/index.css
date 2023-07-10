@@ -1,7 +1,27 @@
-h1 {
-    color: black;
-}
-
 body {
     background-color: white;
+}
+
+/*Page Title Style*/
+.title {
+    color: black;
+    font-size: 74px;
+    margin-left: 100px;
+}
+
+/*Page Subtitle Style*/
+.subtitle {
+    color: black;
+    font-size: 55px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+/*Plain Text*/
+.text {
+    color: black;
+    font-size: 32px;
+    margin-right: 600px;
+    margin-left: 200px;
+    margin-top: 5px;
 }
