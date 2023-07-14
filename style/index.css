@@ -6,14 +6,15 @@ body {
 .title {
     color: black;
     font-size: 74px;
-    margin-left: 100px;
+    margin-left: 680px;
+    margin-bottom: 30px;
 }
 
 /*Page Subtitle Style*/
 .subtitle {
     color: black;
     font-size: 55px;
-    margin-left: 100px;
+    margin-left: 680px;
     margin-bottom: 5px;
 }
 
@@ -21,24 +22,25 @@ body {
 .subtitle2 {
     color: black;
     font-size: 40px;
-    margin-left: 100px;
+    margin-left: 680px;
     margin-bottom: 5px;
 }
 
 /*Plain Text*/
 .text {
     color: black;
-    font-size: 32px;
-    margin-right: 600px;
-    margin-left: 200px;
+    font-size: 20px;
+    margin-right: 780px;
+    margin-left: 680px;
     margin-top: 5px;
+    line-height: 28px;
 }
 
 .hyperlink {
     color: green;
+    text-decoration: none;
 }
 
-
 #first {
-    margin-left: 200px;
+    margin-left: 730px;
 }
