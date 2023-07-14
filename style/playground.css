@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+/*Page Title Style*/
+.title {
+    color: white;
+    font-size: 74px;
+    margin-left: 680px;
+    margin-bottom: 30px;
+}
+
+/*Page Subtitle Style*/
+.subtitle {
+    color: white;
+    font-size: 55px;
+    margin-left: 680px;
+    margin-bottom: 5px;
+}
+
+/*Page Subtitle2 Style*/
+.subtitle2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 680px;
+    margin-bottom: 5px;
+}
+
+/*Plain Text*/
+.text {
+    color: white;
+    font-size: 20px;
+    margin-right: 780px;
+    margin-left: 680px;
+    margin-top: 5px;
+    line-height: 28px;
+}
+
+.hyperlink {
+    color: green;
+    text-decoration: none;
+}
+
+#first {
+    margin-left: 730px;
+}
+
+/*Navigation menu*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li.current a {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+nav ul li {
+    font-size: 32px;
+    margin-left: 20px;
+    display: inline;
+    flex: 1;
+    text-align: center;
+}
