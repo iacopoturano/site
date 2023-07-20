@@ -5,33 +5,60 @@ body {
 /*Page Title Style*/
 .title {
     color: white;
-    font-size: 74px;
-    margin-left: 680px;
+    font-size: 6vh;
+
+    /*font-size: 74px;*/
+
+    margin-left: 26vw;
+    margin-right: 26vw;
+
+    /*margin-left: 680px;
     margin-bottom: 30px;
+    */
 }
 
 /*Page Subtitle Style*/
 .subtitle {
     color: white;
-    font-size: 55px;
-    margin-left: 680px;
+    font-size: 4.5vh;
+    
+    /*font-size: 55px;*/
+    
+    margin-left: 26vw;
+
+    /*margin-left: 680px;
     margin-bottom: 5px;
+    */
 }
 
 /*Page Subtitle2 Style*/
 .subtitle2 {
     color: white;
-    font-size: 40px;
-    margin-left: 680px;
+    font-size: 3vh;
+    
+    /*font-size: 40px;*/
+
+    margin-left: 26vw;
+    
+    /*margin-left: 680px;
     margin-bottom: 5px;
+    */
 }
 
 /*Plain Text*/
 .text {
     color: white;
-    font-size: 20px;
-    margin-right: 780px;
+    font-size: 1vw;
+    
+    /*font-size: 20px;*/
+
+    margin-left: 26vw;
+    margin-right: 26vw;
+
+    /*margin-right: 780px;
     margin-left: 680px;
+    */
+
     margin-top: 5px;
     line-height: 28px;
 }
@@ -73,9 +100,10 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 32px;
+    font-size: 2.5vh;
+    /*font-size: 32px;*/
     margin-left: 20px;
     display: inline;
     flex: 1;
-    text-align: center;
+    text-align: center
 }
