@@ -5,9 +5,8 @@ body {
 /*Page Title Style*/
 .title {
     color: white;
-    font-size: 6vh;
 
-    /*font-size: 74px;*/
+    font-size: 74px;
 
     margin-left: 26vw;
     margin-right: 26vw;
@@ -20,9 +19,8 @@ body {
 /*Page Subtitle Style*/
 .subtitle {
     color: white;
-    font-size: 4.5vh;
     
-    /*font-size: 55px;*/
+    font-size: 55px;
     
     margin-left: 26vw;
 
@@ -34,9 +32,8 @@ body {
 /*Page Subtitle2 Style*/
 .subtitle2 {
     color: white;
-    font-size: 3vh;
-    
-    /*font-size: 40px;*/
+
+    font-size: 40px;
 
     margin-left: 26vw;
     
@@ -48,9 +45,8 @@ body {
 /*Plain Text*/
 .text {
     color: white;
-    font-size: 1vw;
     
-    /*font-size: 20px;*/
+    font-size: 20px;
 
     margin-left: 26vw;
     margin-right: 26vw;
@@ -64,7 +60,7 @@ body {
 }
 
 .hyperlink {
-    color: green;
+    color: greenyellow;
     text-decoration: none;
 }
 
@@ -88,22 +84,34 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 nav ul {
   list-style-type: none;
-  margin-left: 10px;
+  margin: 50px 10px 50px 10px;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: center;
+  width: 50%;
 }
 
 nav ul li {
-    font-size: 2.5vh;
-    /*font-size: 32px;*/
-    margin-left: 20px;
+    font-size: 32px;
+    margin-left: 2vw;
     display: inline;
     flex: 1;
-    text-align: center
+    text-align: center;
+}
+
+#table {
+    color: white;    
+
+    margin-left: 26vw;
+    margin-right: 26vw;
+}
+
+#table th, td {
+    padding-right: 1vw;
+    font-size: 20px;
 }

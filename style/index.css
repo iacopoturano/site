@@ -5,10 +5,8 @@ body {
 /*Page Title Style*/
 .title {
     color: black;
-    
-    font-size: 6vh;
 
-    /*font-size: 74px;*/
+    font-size: 74px;
 
     margin-left: 26vw;
     margin-right: 26vw;
@@ -22,9 +20,7 @@ body {
 .subtitle {
     color: black;
     
-    font-size: 4.5vh;
-    
-    /*font-size: 55px;*/
+    font-size: 55px;
     
     margin-left: 26vw;
 
@@ -36,10 +32,8 @@ body {
 /*Page Subtitle2 Style*/
 .subtitle2 {
     color: black;
-    
-    font-size: 3vh;
-    
-    /*font-size: 40px;*/
+
+    font-size: 40px;
 
     margin-left: 26vw;
     
@@ -52,9 +46,7 @@ body {
 .text {
     color: black;
     
-    font-size: 1vw;
-    
-    /*font-size: 20px;*/
+    font-size: 20px;
 
     margin-left: 26vw;
     margin-right: 26vw;
